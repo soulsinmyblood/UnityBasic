@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Practice : MonoBehaviour
 {
-    private string name = "정은교";// 이름
+    private string myName = "정은교";// 이름
     private int age = 18; // 나이
     private float height = 1.66f; // 키
     private bool isStudent = true; // 학생 여부
@@ -43,7 +43,7 @@ public class Practice : MonoBehaviour
 
     void SelfIntroduction()
     {
-        Debug.Log($"안녕하세요, 제 이름은 {name}입니다. 나이는 {age}세이고, 키는 {height}m입니다. 학생 여부는 {isStudent}입니다.");
+        Debug.Log($"안녕하세요, 제 이름은 {myName}입니다. 나이는 {age}세이고, 키는 {height}m입니다. 학생 여부는 {isStudent}입니다.");
         Debug.Log($"취미는 {string.Join(", ", hobbies)}입니다.");
         Debug.Log($"좋아하는 음식은 {favoriteFood}입니다. 좋아하는 색은 {favoriteColor}이고, 좋아하는 음악 장르는 {favoriteMusic}이며.  좋아하는 숫자는 {favoriteNumber}입니다.");
         Debug.Log($"제 친구는 {string.Join(", ", friends)}이십니다. (극존칭)");
